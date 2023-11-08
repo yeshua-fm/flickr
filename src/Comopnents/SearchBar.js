@@ -76,13 +76,19 @@ function SearchBar() {
     searchFlickr(input);
   }, [currentPage]);
   if (results.length > 0) {
+    const newUrl = "";
     //Displays search results including a new search bar at top of page.
     return (
       <div>
         <SearchBarComponent input={input} handleChange={handleChange} />
         <div className="results">
           {results.map((photo) => (
-            <Photo key={photo.id} url={photo.url_m} title={photo.title} />
+            <Photo
+              key={photo.id}
+              url={photo.url_m}
+              title={photo.title}
+              newurl={`https://www.flickr.com/photos/${photo.owner}/${photo.id}`}
+            />
           ))}
         </div>
         <div className="pagination">

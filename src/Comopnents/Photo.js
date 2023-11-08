@@ -1,10 +1,12 @@
 import "./SearchBar.css";
 import SearchBar from "./SearchBar";
-function Photo({ url, title }) {
+function Photo({ url, title, newurl }) {
   return (
     <div className="resultBar">
       <div className="photo">
-        <img src={url} alt={title} />
+        <a href={newurl}>
+          <img src={url} alt={title} />
+        </a>
         <div className="title">
           <p>{title}</p>
         </div>
