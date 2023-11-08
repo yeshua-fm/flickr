@@ -92,9 +92,9 @@ function SearchBar() {
           ))}
         </div>
         <div className="pagination">
-          <button onClick={prevPage}>Previous</button>
+          <button onClick={prevPage}>Previous </button>
           <span> Page {currentPage} </span>
-          <button onClick={nextPage}>Next</button>
+          <button onClick={nextPage}> Next</button>
         </div>
       </div>
     );

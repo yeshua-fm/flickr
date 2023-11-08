@@ -5,4 +5,5 @@
 }
 .flickrLogo img {
   width: 150px;
+  filter: drop-shadow(0.6rem 0.6rem 1rem rgba(20, 20, 180, 0.4));
 }
