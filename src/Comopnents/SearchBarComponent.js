@@ -24,6 +24,8 @@ function SearchBarComponent({ input, handleChange }) {
                 </InputAdornment>
               ),
             }}
+            //Allows for the search input to remain in focus when the page changes.
+            autoFocus
           />
         </div>
         <div className="dataResult"></div>

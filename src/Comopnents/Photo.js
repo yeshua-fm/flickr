@@ -4,6 +4,7 @@ function Photo({ url, title, newurl }) {
   return (
     <div className="resultBar">
       <div className="photo">
+        {/* Sets photo link, title, and alt */}
         <a href={newurl}>
           <img src={url} alt={title} />
         </a>

@@ -74,9 +74,8 @@ function SearchBar() {
   //Triggers a new search when the currentPage changes
   useEffect(() => {
     searchFlickr(input);
-  }, [currentPage]);
+  }, [input, currentPage]);
   if (results.length > 0) {
-    const newUrl = "";
     //Displays search results including a new search bar at top of page.
     return (
       <div>
@@ -93,7 +92,7 @@ function SearchBar() {
         </div>
         <div className="pagination">
           <button onClick={prevPage}>Previous </button>
-          <span> Page {currentPage} </span>
+          <span className="page"> Page {currentPage} </span>
           <button onClick={nextPage}> Next</button>
         </div>
       </div>
@@ -108,7 +107,7 @@ function SearchBar() {
           <TextField
             fullWidth
             id="fullWidth"
-            label="Search for an Image"
+            placeholder="Search for an Image"
             variant="outlined"
             value={input}
             onChange={(e) => handleChange(e.target.value)}
@@ -120,6 +119,7 @@ function SearchBar() {
                 </InputAdornment>
               ),
             }}
+            autoFocus
           />
         </div>
 

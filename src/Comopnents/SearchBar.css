@@ -8,9 +8,14 @@
   border-radius: 25px;
   width: 360px;
 }
+.searchContainer input:focus {
+  outline: none;
+}
 .searchContainer {
   background-color: white;
+  border-radius: 25px;
 }
+
 /*grid styling for search results */
 .results {
   display: grid;
