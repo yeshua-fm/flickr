@@ -23,6 +23,8 @@ This is a React application for searching images on Flickr using the Flickr API.
    {
      "API_KEY": "YOUR_API_KEY"
    }
+4. Run the application using npm start.
+5. Open your browser and navigate to http://localhost:3000 to view the application.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
