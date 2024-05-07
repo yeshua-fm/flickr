@@ -1,25 +1,28 @@
-# Flickr Image Search App #
+### Flickr Image Search App
+
 This is a React application for searching images on Flickr using the Flickr API. It allows users to input search queries and browse through paginated search results.
 
-# Features: #
-Search Bar: Users can input search queries to find images on Flickr.
-Pagination: Results are paginated, allowing users to navigate through multiple pages of search results.
-Image Display: Displays search results with thumbnails and titles. Each image is clickable and links to the corresponding Flickr page.
-# Technologies Used: #
-React: The application is built using the React library for building user interfaces.
-Material-UI: Material-UI components are used for designing the search bar and pagination buttons.
-Flickr API: The application utilizes the Flickr API to search for images based on user input.
-# Usage: #
-Clone the repository to your local machine. < br />
-Install dependencies using npm install. < br />
-Create a config.json file in the root directory with your Flickr API key. 
-json < br />
-Copy code
-{
-  "API_KEY": "YOUR_API_KEY"
-}
-Run the application using npm start.
-Open your browser and navigate to http://localhost:3000 to view the application.
+#### Features:
+
+- **Search Bar**: Users can input search queries to find images on Flickr.
+- **Pagination**: Results are paginated, allowing users to navigate through multiple pages of search results.
+- **Image Display**: Displays search results with thumbnails and titles. Each image is clickable and links to the corresponding Flickr page.
+
+#### Technologies Used:
+
+- **React**: The application is built using the React library for building user interfaces.
+- **Material-UI**: Material-UI components are used for designing the search bar and pagination buttons.
+- **Flickr API**: The application utilizes the Flickr API to search for images based on user input.
+
+#### Usage:
+
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Create a `config.json` file in the root directory with your Flickr API key.
+   ```json
+   {
+     "API_KEY": "YOUR_API_KEY"
+   }
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
