@@ -10,10 +10,10 @@ React: The application is built using the React library for building user interf
 Material-UI: Material-UI components are used for designing the search bar and pagination buttons.
 Flickr API: The application utilizes the Flickr API to search for images based on user input.
 # Usage: #
-Clone the repository to your local machine.
-Install dependencies using npm install.
-Create a config.json file in the root directory with your Flickr API key.
-json
+Clone the repository to your local machine. < br />
+Install dependencies using npm install. < br />
+Create a config.json file in the root directory with your Flickr API key. 
+json < br />
 Copy code
 {
   "API_KEY": "YOUR_API_KEY"
