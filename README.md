@@ -18,7 +18,7 @@ This is a React application for searching images on Flickr using the Flickr API.
 
 1. Clone the repository to your local machine.
 2. Install dependencies using `npm install`.
-3. Create a `config.json` file in the root directory with your Flickr API key.
+3. Edit the existing  `config.json` file to add your Flickr API key.
    ```json
    {
      "API_KEY": "YOUR_API_KEY"
